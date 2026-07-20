@@ -149,7 +149,7 @@ namespace C__Session_03
             #region // question 7.1
             //Using the same books array, use a while loop to print every book title.
 
-            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
 
             //int count = 0;
             //while (count < books.Length)
@@ -159,7 +159,50 @@ namespace C__Session_03
             //}
 
 
+            //Write a do-while loop that prints "Checking book..." exactly 3 times.
+
+            //int count = 0;
+            //do
+            //{
+            //    Console.WriteLine(books[count]);
+            //    count ++;
+            //} 
+            //while (count < books.Length);
+
+
+            // Using the same books array, use a foreach loop to print every book title. 
+
+            //foreach (string allboks in books)
+            //{
+            //    Console.WriteLine(allboks);
+            //}
+
+
+            /* Using the same books array, loop through it and print each title,
+            but stop completely (break) once you reach "Refactoring". */
+
+            //for (int i = 0; i < books.Length; i++) {
+            //    Console.WriteLine($"{i+1} : {books[i]}");
+
+            //    if (books[i] == "The Pragmatic Programmer") 
+            //        break;
+
+            //}
+
+
+            /*Using the same books array, print every title except
+            "The Pragmatic Programmer" (skip it with continue, don't stop the loop).*/
+
+            //for (int i = 0; i < books.Length; i++)
+            //{
+            //    if (books[i] == "The Pragmatic Programmer")
+            //        continue;
+            //    Console.WriteLine(books[i]);
+             
+            //}
+
             #endregion
+
         }
     }
 }
