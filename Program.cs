@@ -81,9 +81,10 @@ namespace C__Session_03
 
             #endregion
 
-            #region
+            #region  //question 5
+
             /*Given int pages = 464; and bool isAvailable = true;
-           ,print "You can borrow this book" 
+            ,print "You can borrow this book" 
             only if pages is greater than 300 and isAvailable is true.Use the && operator.*/
 
             //int pages = 464;
@@ -115,8 +116,21 @@ namespace C__Session_03
             //}
 
 
+            #endregion /   
+
+            #region //question 6
+            /*Given int pages = 464;, use the ternary operator to store 
+            "Long Book" or "Short Book" into a variable sizeLabel 
+            (same rule as question 8: long if pages > 300). */
+
+            //int pages = 464;
+            //string sizeLabel = pages > 300 ? "Long Book" : "Short Book";
+            //Console.WriteLine($"Results Is : {sizeLabel}");
+
+
+
             #endregion
 
         }
-    }
+}
 }
