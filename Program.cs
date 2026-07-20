@@ -8,6 +8,18 @@ namespace C__Session_03
 {
     internal class Program
     {
+        //Write a method PrintFirstBook() that prints the first book in the books array.
+        //If the array is empty, use return to exit the method early instead of printing anything.
+
+
+        //static void PrintFirstBook(string[] books)
+        //{
+        //    if (books.Length == 0)
+        //        return;
+
+        //    Console.WriteLine(books[0]);
+        //}
+
         static void Main(string[] args)
         {
 
@@ -149,7 +161,7 @@ namespace C__Session_03
             #region // question 7.1
             //Using the same books array, use a while loop to print every book title.
 
-            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
 
             //int count = 0;
             //while (count < books.Length)
@@ -198,11 +210,32 @@ namespace C__Session_03
             //    if (books[i] == "The Pragmatic Programmer")
             //        continue;
             //    Console.WriteLine(books[i]);
-             
+
             //}
 
             #endregion
 
+            #region //question 9
+
+            //Write a method PrintFirstBook() that prints the first book in the books array.
+            //If the array is empty, use return to exit the method early instead of printing anything.
+
+
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //PrintFirstBook(books);
+
+
+
+
+            #endregion 
+
         }
+
+      
+                
+
+            
+
+        }
+
     }
-}
