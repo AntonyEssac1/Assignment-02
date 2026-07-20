@@ -1,6 +1,8 @@
 ﻿using System.Drawing;
+using System.Runtime.Intrinsics.X86;
 using System.Text;
 using System.Threading.Channels;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace C__Session_03
 {
@@ -131,6 +133,19 @@ namespace C__Session_03
 
             #endregion
 
+            #region  // question 7
+            /* Given string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };,
+             use a for loop to print each book with its position number, like 1.Clean Code.*/
+
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //for (int i = 0; i < books.Length; i++)
+            //{
+            //    Console.WriteLine($"{i+1} : {books[i]}");
+            //}
+
+
+            #endregion
+
         }
-}
+    }
 }
