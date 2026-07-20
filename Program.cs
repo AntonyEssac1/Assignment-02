@@ -53,14 +53,24 @@ namespace C__Session_03
 
             string title = "Clean Code ";
             int pages = 464;
-            Console.WriteLine("Book: " + title + pages);
+            //Console.WriteLine("Book: " + title + pages);
 
             /*Build the same sentence as above, 
             * but using string interpolation ($"...").*/
 
-            Console.WriteLine($"Book : {title}{pages}");
+            //Console.WriteLine($"Book : {title}{pages}");
+
+            //Build the same sentence again, but using string.Format(). 
+
+            string results = string.Format("the title is : {0} , the pages is {1}", title, pages);
+            Console.WriteLine(results);
 
             #endregion
+
+            #region
+
+            #endregion
+
         }
     }
 }
