@@ -51,8 +51,8 @@ namespace C__Session_03
             /*Given string title = "Clean Code"; and int pages = 464;,
             build the sentence "Book: Clean Code, Pages: 464" using the + operator. */
 
-            string title = "Clean Code ";
-            int pages = 464;
+            //string title = "Clean Code ";
+            //int pages = 464;
             //Console.WriteLine("Book: " + title + pages);
 
             /*Build the same sentence as above, 
@@ -62,8 +62,8 @@ namespace C__Session_03
 
             //Build the same sentence again, but using string.Format(). 
 
-            string results = string.Format("the title is : {0} , the pages is {1}", title, pages);
-            Console.WriteLine(results);
+            //string results = string.Format("the title is : {0} , the pages is {1}", title, pages);
+            //Console.WriteLine(results);
 
             #endregion
 
